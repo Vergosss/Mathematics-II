@@ -1,0 +1,126 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage[greek,english]{babel}
+\usepackage{alphabeta}
+\title{ΕΞΑΜΗΝΙΑΙΑ ΕΡΓΑΣΙΑ ΣΤΑ ΜΑΘΗΜΑΤΙΚΑ 2 }
+\author{ΒΕΡΓΟΣ ΓΕΩΡΓΙΟΣ AM:1072604 }
+\begin{document}
+\maketitle
+\section{2.1}
+1)
+Με βάση τα τελευταία ψηφία του αριθμού μητρώου μου έχω:
+ABCDE=72604 $100\cdot[(A+B)MOD3+1]=100\cdot[(7+2)MOD3 +1]=100 , 10\cdot(C+2)=10\cdot(6+2)=80 ,10\cdot[(B\cdot D + 2)MOD3 + 1]=10\cdot[(0\cdot 2 +2)MOD3 +1]=30$ οπότε: $\vec{a}=(2,-7,6) , \vec{b}=(7,-2,0) , \vec{c}=(7,2,-7).$ \newline
+(a)\: $\vec{a} + 2\vec{b} -3\vec{c}$ , έχω:\newline
+$\vec{a}=(2,-7,6)= 2\vec{i} - 7\vec{j} + 6\vec{k} , 2\vec{b}=2\cdot(7,-2,0)=(14,-4,0)=14\vec{i} - 4\vec{j} + 0\vec{k} , -3\vec{c}=-3\cdot(7,2,-7)=(-21,-6,21)= -21\vec{i} -  6\vec{j} +21\vec{k}.$ όπου:\newline
+$|\vec{a}|=\sqrt{2^2+(-7)^2+6^2}=\sqrt{89} , |\vec{2b}|=\sqrt{14^2+(-4)^2+0^2}=\sqrt{212} , |\vec{-3c}|=\sqrt{(-21)^2+(-6)^2+21^2}=\sqrt{918}$
+\newline Άρα: $\vec{a} + 2\vec{b} -3\vec{c}=(2,-7,6) + (14,-4,0) + (-21,-6,21)=(-5,-17,27)= -5\vec{i} - 17\vec{j} + 27\vec{k} . $ με μέτρο: $|\vec{a}+2\vec{b}-3\vec{c}|=\sqrt{(-5)^2+(-17)^2+27^2}=\sqrt{1043}$ . Γενικά για ένα διάνυσμα $\vec{v}$ ορίζουμε ως το μοναδιαίο του : $\hat{v}=\frac{v_1}{|\vec{v}|}e_1 + \frac{v_2}{|\vec{v}|}e_2 + \frac{v_3}{|\vec{v}|}e_3$, με $e_1=(1,0,0) , e_2=(0,1,0) , e_3=(0,0,1)$ τα βασικά μοναδιαία διανύσματα.
+\newline
+Το μοναδιαίο του $\vec{a}$ είναι:\newline
+$\hat{a}=\frac{2}{\sqrt{89}}e_1 +\frac{-7}{\sqrt{89}}e_2 + \frac{6}{\sqrt{89}}e_3$ \newline
+Το μοναδιαίο του $2\vec{b}$ είναι:\newline
+$\hat{2b}=\frac{14}{\sqrt{212}}e_1 +\frac{-4}{\sqrt{212}}e_2 +\frac{0}{\sqrt{212}}e_3$ \newline
+Το μοναδιαίο διάνυσμα του : $-3\vec{c}$ είναι:\newline
+$-3\hat{c}=\frac{-21}{\sqrt{918}}e_1 + \frac{-6}{\sqrt{918}}e_2 + \frac{21}{\sqrt{918}}e_3$
+\newline
+(b) $(\vec{a} + 3\vec{b})\cdot \vec{c}$ έχω:\newline
+$(\vec{a} + 3\vec{b})=(2,-7,6) + 3\cdot(7,-2,0)=(23,-13,6)$ οπότε: $(\vec{a} + 3\vec{b})\cdot \vec{c}=23\cdot7 +(-13)\cdot2 + 6\cdot(-7)=161-26-42=93.$ \newline
+$\vec{d}=(\vec{a} + 3\vec{b})\times\vec{c}=\begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 23 & -13 & 6 \\ 7 & 2 & -7 \end{vmatrix}=\vec{i}((-13)\cdot(-7) -2\cdot6) - \vec{j}(23\cdot(-7) -6\cdot7 + \vec{k}(23\cdot2-(-13)\cdot7)=79\vec{i} + 203\vec{j} + 137\vec{k}=(79,203,137).$ με μέτρο:$|\vec{d}|=\sqrt{79^2+203^2+137^2}=\sqrt{66219}$. Το μοναδιαίο του $\vec{d}$ είναι : \newline
+$\hat{d}=\frac{79}{\sqrt{66219}}e_1 + \frac{203}{\sqrt{66219}}e_2 + \frac{137}{\sqrt{66219}}e_3$.
+\newline
+$(\vec{a},\vec{b},\vec{c})=\vec{a}\cdot(\vec{b}\times\vec{c})=\begin{vmatrix} 2 & -7 & 6 \\ 7 & -2 & 0 \\ 7 & 2 & -7 \end{vmatrix}=2\cdot((-2)\cdot(-7) -2\cdot0) -(-7)\cdot(7\cdot(-7) -7\cdot0) + 6\cdot(7\cdot2 -(-2)\cdot7)=7\cdot28 - 7\cdot49=7\cdot(-21)=-147.$ \newline
+2) \newline
+a) Αν : $\vec{v}\neq\vec{0}$ και $\vec{u}\neq\vec{0}$ και $\theta$ η γωνία που σχηματίζουν τα δύο αυτά διανύσματα μεταξύ τους με κοινή αρχή(αν έχουν , ενώ αν δεν έχουν προεκτείνοντας κατάλληλα τους φορείς τους),γνωρίζοντας από τη θεωρία ότι ορίζουμε ως εσωτερικό γινόμενο 2 διανυσμάτων $\vec{a},\vec{b} ,\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos{(\widehat{\vec{a},\vec{b})}} $  τότε: $|\vec{v}\cdot\vec{u}|=||\vec{v}|\cdot|\vec{u}|\cdot\cos{\theta}|=||\vec{v}||\cdot||\vec{u}||\cdot|\cos{\theta}|=|\vec{u}|\cdot|\vec{v}|\cdot|\cos{\theta}|$ άρα: \newline
+$|\vec{u}\cdot\vec{v}|\leq|\vec{u}\cdot|\vec{v}|\iff |\vec{v}|\cdot|\vec{u}|\cdot|\cos{\theta}|\leq|\vec{u}|\cdot|\vec{v}|\iff |\cos{\theta}|\leq1$ κάτι που ισχύει.\newline
+Αν ένα τουλάχιστον από τα διανύσματα $\vec{u}$ ή $\vec{v}$ είναι το μηδενικό τότε $|\vec{u}|=0$ ή $|\vec{v}|=0$ οπότε θα έχω: $0\leq0$ που προφανώς ισχύει.\newline Μία καλύτερη απόδειξη της ανισότητας είναι να θεωρήσουμε το διάνυσμα:$\vec{u}-y\vec{v}$. Το μέτρο του είναι πάντα μεγαλύτερο ή ίσο του μηδέν γιατί πρόκειται για μήκος διανύσματος. Οπότε $|\vec{u}-y\vec{v}|\geq0 \Rightarrow 0\leq|\vec{u}-y\vec{v}|^2=(\vec{u}-y\vec{v})\cdot(\vec{u}-y\vec{v})=\vec{u}^2 -y\vec{u}\cdot\vec{v}-y\vec{v}\cdot\vec{u}+y^2\vec{v}^2=\vec{u}^2 -2y\vec{u}\cdot\vec{v}+y^2\vec{v}^2$ το οποίο είναι ένα τριώνυμο του $y$. Εφόσον η προηγούμενη παράσταση είναι πάντα θετική ή μηδέν τότε αυτό σημαίνει πως το τριώνυμο διατηρεί πρόσημο ή και μηδενίζεται. Οπότε η διακρίνουσα του πρέπει να είναι μικρότερη είτε ίση του μηδέν. Άρα θα πρέπει: $D=(-2\cdot\ \vec{u}\cdot \vec{v})^2 -4\cdot \vec{v}^2\cdot \vec{u}^2\leq0 \iff 4(\vec{v}\cdot\vec{u})^2\leq4\vec{v}^2\cdot \vec{u}^2 \iff (\vec{v}\cdot\vec{u})^2\leq\vec{v}^2\cdot \vec{u}^2 \iff (\vec{v}\cdot\vec{u})^2\leq|\vec{v}|^2\cdot |\vec{u}|^2 \iff \sqrt{(\vec{v}\cdot\vec{u})^2}\leq\sqrt{|\vec{v}|^2\cdot |\vec{u}|^2} \iff \sqrt{(\vec{v}\cdot\vec{u})^2}\leq\sqrt{|\vec{v}|^2}\cdot\sqrt{|\vec{u}|^2} \iff |\vec{v}\cdot\vec{u}|\leq|\vec{v}|\cdot|\vec{u}|$
+\newline
+b) Τα παρακάτω γινόμενα είναι δισεξωτερικά γινόμενα. Από τη θεωρία γνωρίζω ότι για τα διανύσματα $\vec{a},\vec{b},\vec{c}$ ισχύει:$(\vec{a}\times\vec{b})\times\vec{c}=(\vec{a}\cdot\vec{c})\cdot\vec{b} - (\vec{b}\cdot\vec{c})\cdot\vec{a}$ οπότε:\newline
+$\vec{v}\times(\vec{u}\times\vec{w}) + \vec{u}\times(\vec{w}\times\vec{v}) + \vec{w}\times(\vec{v}\times\vec{u})=[(\vec{v}\cdot\vec{w})\cdot\vec{u} - (\vec{v}\cdot\vec{u})\cdot\vec{w}] + [(\vec{u}\cdot\vec{v})\cdot\vec{w} - (\vec{u}\cdot\vec{w})\cdot\vec{v}] + [(\vec{u}\cdot\vec{w})\cdot\vec{v} - (\vec{w}\cdot\vec{v})\cdot\vec{u}]=0$( λόγω απαλοιφής των όρων).\newline
+3)\newline
+Από τα δεδομένα της εκφώνησης(οι ζητούμενες παραστάσεις έχουν υπολογιστεί στην αρχή της αναφοράς) έχω: \newline
+$|\vec{v_{airplane}}|=\frac{d}{Δt}=200 km/h ,|\vec{v_{air}}|=80 km/h$, γνωρίζω επίσης ότι η γωνία που σχηματίζει το διάνυσμα της ταχύτητας του αεροπλάνου με την ταχύτητα του αέρα είναι:$\frac{\pi}{4}$ λόγω του ότι το αεροπλάνο πάει προς τα ανατολικά και ο αέρας έρχεται από τα βορειοδυτικά, άρα ζητείται να υπολογίζουμε το μέτρο της προβολής του διανύσματος της ταχύτητας του αεροπλάνου ως προς το διάνυσμα της ταχύτητας του αέρα. Έστω $\vec{w}$ αυτό το διάνυσμα.  Οπότε:\newline
+$\vec{v_{airplane}}\cdot\vec{v_{air}}=\vec{v_{air}}\cdot\vec{w} \Rightarrow |\vec{v_{airplane}}|\cdot|\vec{v_{air}}|\cdot\cos{\frac{\pi}{4}}=|\vec{w}|\cdot|\vec{v_{air}}|\cdot\cos{0} \Rightarrow |\vec{w}|=100\sqrt2\:km/h$ άρα το μέτρο της ταχύτητας του αεροπλάνου ως προς τον άνεμο είναι $100\sqrt2\:km/h$.\newline
+Εικόνα με τα διανύσματα:\newline
+\includegraphics[width=5cm, height=5cm]{AIR.jpg} \newline
+4) Υπολογίζω την δοσμένη ορίζουσα\::$A=\begin{vmatrix}x_1 & y_1 & z_1 & 1 \\ x_2 & y_2 & z_2 & 1 \\ x_3 & y_3 & z_3 & 1 \\ x_4 & y_4 & z_4 & 1 \end{vmatrix} = x_1\cdot\begin{vmatrix}y_2 & z_2 & 1 \\ y_3 & z_3 & 1 \\ y_4 & z_4 & 1\end{vmatrix} -y_1\cdot\begin{vmatrix}x_2 & z_2 & 1 \\ x_3 & z_3 & 1 \\ x_4 & z_4 & 1\end{vmatrix} + z_1\cdot\begin{vmatrix}x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \\ x_4 & y_4 & 1\end{vmatrix} -1\cdot\begin{vmatrix}x_2 & y_2 & z_2 \\ x_3 & y_3 & z_3 \\ x_4 & y_4 & z_4\end{vmatrix}=x_1\cdot y_2(z_3-z_4) -x_1\cdot z_2(y_3-y_4) + x_1(y_3\cdot z_4 -y_4\cdot z_3) -x_2\cdot y_1(z_3-z_4) + y_1\cdot z_2(x_3-x_4) -y_1(x_3z_4 - x_4z_3) + x_2\cdot z_1(y_3-y_4) -y_2\cdot z_1(x_3-x_4) + z_1(x_3y_4 - x_4y_3) -x_2(y_3z_4 - y_4z_3) + y_2(x_3z_4 - x_4z_3) -z_2(x_3y_4 -x_4y_3)=(z_3-z_4)(x_1y_2-x_2y_1) +(y_3-y_4)(x_2z_1-x1z_2) + (x_3-x_4)(y_1z_2-y_2z_1) +(x_1-x_2)(y_3z_4-y_4z_3) + (y_2-y_1)(x_3z_4-x_4z_3) + (z_1-z_2)(x_3y_4-x_4y_3).$ \newline \newline
+Γνωρίζω όμως πως ο όγκος ενός τετραέδρου ισούται με το ένα τρίτο του γινομένου του εμβαδού της βάσης του επί το ύψος που αντιστοιχεί σε αυτή. Άρα $V=\frac{1}{3}B\cdot h$ όπου B το εμβαδό της βάσης και h το αντίστοιχο ύψος. Γνωρίζω από τη διανυσματική ανάλυση ότι αν έχω 3 μη συνεπίπεδα διανύσματα $\vec{a},\vec{b},\vec{c}$ η απόλυτη τιμή του  γινομένου $(\vec{a},\vec{b},\vec{c})$ ισούται με τον όγκο του παραλληλεπιπέδου που έχει τρεις ακμές το οποίο ορίζουν τα διανύσματα $\vec{a},\vec{b},\vec{c}$ με κοινή αρχή. Ο όγκος του τετραέδρου όμως ισούται με το $\frac{1}{6}$ του όγκου αυτού του παραλληλεπιπέδου. Άρα $V=\frac{1}{6}\cdot\abs{\vec{a}\cdot(\vec{b}\times\vec{c})}$ με τα διανύσματα $\vec{a},\vec{b},\vec{c}$ να έχουν κοινή αρχή(έστω το σημείο $A(x_1,y_1,z_1)$). Με: $\vec{a}=\overrightarrow{AB} , \vec{b}=\overrightarrow{AC} , \vec{c}=\overrightarrow{AD}$ τότε : έστω το $|D|=|(\vec{a},\vec{b},\vec{c})|=V(\vec{a},\vec{b},\vec{c})$ όπου : \newline
+$D=det(\overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD})=\begin{vmatrix} (x_2-x_1) & (y_2-y_1) & (z_2-z_1) \\ (x_3-x_1) & (y_3-y_1) & (z_3-z_1) \\ (x_4-x_1) & (y_4-y_1) & (z_4-z_1)  \end{vmatrix}=(x_2-x_1)[(y_3-y_1)(z_4-z_1) -(y_4-y_1)(z_3-z_1)] +(y_1-y_2)[(x_3-x_1)(z_4-z_1) -(x_4-x_1)(z_3-z_1)] + (z_2-z_1)[(x_3-x_1)(y_4-y_1) -(x_4-x_1)(y_3-y_1)]=(x_2-x_1)(y_3z_4-y_3z_1-y_1z_4-y_4z_3+y_4z_1+y_1z_3) + (y_1-y_2)(x_3z_4-x_3z_1-x_1z_4-x_4z_3+x_4z_1+x_1z_3) + (z_2-z_1)(x_3y_4-x_3y_1-x_1y_4-x_4y_3+x_4y_1+x_1y_3)=x_2y_3z_4 -x_2y_3z_1-x_2y_1z_4-x_2y_4z_3+x_2y_4z_1+x_2y_1z_3-x_1y_3z_4+x_1y_3z_1+x_1y_1z_4+x_1y_4z_3-x_1y_4z_1-x_1y_1z_3  + x_3y_1z_4-x_3y_1z_1-x_1y_1z_4-x_4y_1z_3+x_4y_1z_1+x_1y_1z_3-x_3y_2z_4+x_3y_2z_1+x_1y_2z_4+x_4y_2z_3-x_4y_2z_1-x_1y_2z_3 + x_3y_4z_2-x_3y_1z_2-x_1y_4z_2-x_4y_3z_2+x_4y_1z_2+x_1y_3z_2 -x_3y_4z_1+x_3y_1z_1+x_1y_4z_1+x_4y_3z_1-x_4y_1z_1-x_1y_3z_1=(z_3-z_4)(x_2y_1-x_1y_2) +(y_3-y_4)(x_1z_2-x_2z_1) +(x_3-x_4)(y_2z_1-y_1z_2) +(x_1-x_2)(y_4z_3-y_3z_4) +(y_2-y_1)(x_4z_3-x_3z_4) + (z_1-z_2)(x_4y_3-x_3y_4)=-A.$
+\newline
+Οπότε αφού $D=-A \Rightarrow \abs{D}=\abs{-A}$ , άρα ο όγκος τετράεδρου ABCD ισούται με $V=\frac{1}{6}\abs{A}$
+\newline
+5) Γενικά από το θεώρημα του de Moivre αν έχω έναν μιγαδικό αριθμό $z=x+yi=r(\cos\theta+i\sin\theta)$ τότε : \newline $z^n=r^n(\cos{(n\theta)} +i\sin{(n\theta)})$.Συνέπεια αυτού του τύπου είναι ότι αν θέλω να λύσω την εξίσωση: $z^n=w ,w\in \mathbb{C} , w=r(\cos\theta +i\sin\theta).$ οι λύσεις της εξίσωσης θα είναι: $z_\kappa=\sqrt[n]{r}(\cos{\frac{\theta+2\kappa\pi}{n}}+i\sin{\frac{\theta+2\kappa\pi}{n}})$ με $\kappa \in \{0,1,2,\ldots,n-1\}$ , άρα\newline
+(a) $z^4=16 \Rightarrow 16=16(\cos0 +i\sin0)$ οπότε: $z_0=\sqrt[4]{16}(\cos{\frac{0+2\cdot0\cdot\pi}{4}} +i\sin{\frac{0+2\cdot0\cdot\pi}{4}})=2(\cos0 +i\sin0)=2+0i $ άρα $z_0=2$ \newline
+$z_1=\sqrt[4]{16}(\cos{\frac{0+2\cdot1\cdot\pi}{4}} +i\sin{\frac{0+2\cdot1\cdot\pi}{4}})=2(\cos{\frac{\pi}{2}}+i\sin{\frac{\pi}{2}})=2i=2(0+i) $ άρα $z_1=2i$ \newline
+$z_2=\sqrt[4]{16}(\cos{\frac{0+2\cdot2\cdot\pi}{4}} +i\sin{\frac{0+2\cdot2\cdot\pi}{4}})=2(\cos{\pi}+i\sin{\pi})=-2=-2+0i$ άρα $z_2=-2$ \newline
+$z_3=\sqrt[4]{16}(\cos{\frac{0+2\cdot3\cdot\pi}{4}}+i\sin{\frac{0+2\cdot3\cdot\pi}{4}})=2(\cos{\frac{3\pi}{2}}+i\sin{\frac{3\pi}{2}})=2(0-i)=-2i$ άρα $z_3=-2i$ \newline
+Διάγραμμα Argand:\newline
+\includegraphics[width=5cm, height=5cm]{ARG1.jpg} \newline
+Συμμετρία: Οι εικόνες των $z_0,z_2$ παρουσιάζουν συμμετρία ως προς τον φανταστικό άξονα αφού έχουν αντίθετα πραγματικά μέρη και ίδια φανταστικά. Ωστόσο οι εικόνες των $z_0 , z_2$ παρουσιάζουν συμμετρία και ως προς την αρχή $O(0,0)$ των αξόνων γιατί οι συντεταγμένες τους είναι και αντίστοιχα αντίθετες.(Το αντίθετο του 0 είναι το 0). Οι εικόνες των $z_1,z_3$ εμφανίζουν συμμετρία ως προς τον πραγματικό άξονα  αφού έχουν αντίθετο φανταστικό μέρος και ίδιο πραγματικό.Ωστόσο οι εικόνες των $z_1 , z_3$ παρουσιάζουν συμμετρία και ως προς την αρχή $(0,0)$ των αξόνων γιατί οι συντεταγμένες τους είναι και αντίστοιχα αντίθετες.(Το αντίθετο του 0 είναι το 0).
+\newline
+b)$z^3=-27i \Rightarrow -27i=27(0-i)=27(\cos{\frac{3\pi}{2}}+i\sin{\frac{3\pi}{2}})$ οπότε: \newline
+$z_0=\sqrt[3]{27}(\cos{\frac{\frac{3\pi}{2}+2\cdot0\cdot\pi}{3}}+i\sin{\frac{\frac{3\pi}{2}+2\cdot0\cdot\pi}{3}})=3(\cos{\frac{\pi}{2}}+i\sin{\frac{\pi}{2}})=3i$ \newline
+$z_1=\sqrt[3]{27}(\cos{\frac{\frac{3\pi}{2}+2\cdot1\cdot\pi}{3}}+i\sin{\frac{\frac{3\pi}{2}+2\cdot1\cdot\pi}{3}})=3(\cos{\frac{7\pi}{6}}+i\sin{\frac{7\pi}{6}})=-\frac{3\sqrt3}{2}-\frac{3}{2}i$ \newline
+$z_2=\sqrt[3]{27}(\cos{\frac{\frac{3\pi}{2}+2\cdot2\cdot\pi}{3}}+i\sin{\frac{\frac{3\pi}{2}+2\cdot2\cdot\pi}{3}})=3(\cos{\frac{11\pi}{6}}+i\sin{\frac{11\pi}{6}})=\frac{3\sqrt3}{2} -\frac{3}{2}i$ \newline
+Διάγραμμα Argand:\newline
+\includegraphics[width=5cm, height=5cm]{ARG2.jpg} \newline
+Συμμετρία:Οι εικόνες των μιγαδικών αριθμών $z_1,z_2$ παρουσιάζουν συμμετρία ως προς τον φανταστικό άξονα αφού έχουν ίδιο φανταστικό αλλά αντίθετο πραγματικό μέρος.\newline
+(c)\newline $z^5=-1 \Rightarrow -1=1(\cos\pi+i\sin\pi)$ άρα :\newline
+$z_0=\sqrt[5]{1}(\cos{\frac{\pi+2\cdot0\cdot\pi}{5}}+i\sin{\frac{\pi+2\cdot0\cdot\pi}{5}})=1(\cos{\frac{\pi}{5}}+i\sin{\frac{\pi}{5}})$ \newline
+$z_1=\sqrt[5]{1}(\cos{\frac{\pi+2\cdot1\cdot\pi}{5}}+i\sin{\frac{\pi+2\cdot1\cdot\pi}{5}})=1(cos{\frac{3\pi}{5}}+i\sin{\frac{3\pi}{5}})$ \newline
+$z_2=\sqrt[5]{1}(\cos{\frac{\pi+2\cdot2\cdot\pi}{5}}+i\sin{\frac{\pi+2\cdot2\cdot\pi}{5}})=1(\cos\pi+i\sin\pi)=-1$ \newline
+$z_3=\sqrt[5]{1}(\cos{\frac{\pi+2\cdot3\cdot\pi}{5}}+i\sin{\frac{\pi+2\cdot3\cdot\pi}{5}})=1(\cos{\frac{7\pi}{5}}+i\sin{\frac{7\pi}{5}})$ \newline
+$z_4=\sqrt[5]{1}(\cos{\frac{\pi+2\cdot4\cdot\pi}{5}}+i\sin{\frac{\pi+2\cdot4\cdot\pi}{5}})=1(\cos{\frac{9\pi}{5}}+i\sin{\frac{9\pi}{5}})$
+Διάγραμμα Argand:\newline
+\includegraphics[width=5cm, height=5cm]{ARG3.jpg} \newline
+Συμμετρία:Οι εικόνες των $z_1,z_3$ παρουσιάζουν συμμετρία ως προν τον πραγματικό άξονα αφού έχουν ίδιο πραγματικό αλλά αντίθετο φανταστικό μέρος. Ομοίως οι εικόνες των $z_0,z_4$ παρουσιάζουν συμμετρία ως προς τον πραγματικό άξονα αφού έχουν ίδιο πραγματικό μέρος και αντίθετο φανταστικό.\newline
+6)
+$1+27i{(x+1)}^3=0 \Rightarrow 27i{(x+1)}^3=-1 \Rightarrow 27i^2{(x+1)}^3=-i \Rightarrow -27{(x+1)}^3=-i \Rightarrow {(x+1)}^3=\frac{1}{27}i $ \newline
+Έστω τώρα $z=x+1 \Rightarrow z^3=\frac{1}{27}i$ \newline
+$\frac{1}{27}i=\frac{1}{27}(0+i)=\frac{1}{27}(cos{\frac{\pi}{2}}+i\sin{\frac{\pi}{2}})$ οπότε οι λύσεις είναι:\newline
+$z_0=\sqrt[3]{\frac{1}{27}}(\cos{\frac{\frac{\pi}{2}+2\cdot0\cdot\pi}{3}}+i\sin{\frac{\frac{\pi}{2}+2\cdot0\cdot\pi}{3}})=\frac{1}{3}(\cos{\frac{\pi}{6}}+i\sin{\frac{\pi}{6}})=\frac{1}{3}(\frac{\sqrt3}{2}+\frac{1}{2}i)$\newline
+$z_1=\sqrt[3]{\frac{1}{27}}(\cos{\frac{\frac{\pi}{2}+2\cdot1\cdot\pi}{3}}+i\sin{\frac{\frac{\pi}{2}+2\cdot1\cdot\pi}{3}})=\frac{1}{3}(\cos{\frac{5\pi}{6}}+i\sin{\frac{5\pi}{6}})=\frac{1}{3}(-\frac{\sqrt3}{2}+\frac{1}{2}i)$ \newline
+$z_2=\sqrt[3]{\frac{1}{27}}(\cos{\frac{\frac{\pi}{2}+2\cdot2\cdot\pi}{3}}+i\sin{\frac{\frac{\pi}{2}+2\cdot2\cdot\pi}{3}})=\frac{1}{3}(\cos{\frac{9\pi}{6}}+i\sin{\frac{9\pi}{6}})=-\frac{1}{3}i$ οπότε οι λύσεις $x$ της εξίσωσης είναι:\newline
+$x_0=-1+\frac{1}{3}(\frac{\sqrt3}{2}+\frac{1}{2}i) , x_1=-1+\frac{1}{3}(-\frac{\sqrt3}{2}+\frac{1}{2}i) , x_2=-1+-\frac{1}{3}i$ \newline
+Παρατηρώ δηλαδή ότι οι λύσεις της εξίσωσης στην άσκηση 6 προκύπτουν(μέσω του ερωτήματος 5β) αν από τις αντίθετες και ταυτόχρονα αντίστροφες λύσεις της εξίσωσης στο ερώτημα 5β αφαιρέσω το 1.Λογικό αφού για την 6:$z^3=-\frac{-1}{27}i)$ και $z=x+1$ . Αντικαθιστώντας λοιπόν αυτές τις τροποποιημένες λύσεις της 5β(αντίθετες και αντίστροφες μειωμένες κατά 1) παρατηρώ ότι η εξίσωση λύνεται.\newline
+\section{2.2}
+1) Ναι υπάρχει παράδειγμα όπου όταν ένα κινητό διανύει απόσταση S η μέση ταχύτητα να είναι ίση με τη στιγμιαία ταχύτητα μια χρονική στιγμή $t_0$.Το παράδειγμα αυτό είναι η ευθύγραμμη ομαλή κίνηση όπου $\frac{dv}{dt}=0$ Αυτό γίνεται πιο κατανοητό μέσω του θεωρήματος της μέσης τιμής: Στην ευθύγραμμη ομαλή κίνηση η συνάρτηση $S(t)$ του διαστήματος που διανύει το κινητό προκύπτει από τον τύπο: $S(t)=V\cdot t$ με $V=constant$. Έστω $t_a,t_b: t_a<t_b$ όπου η διαφορά τους δίνει το χρονικό διάστημα $Δt$ που χρειάζεται το κινητό να διανύσει την δοσμένη απόσταση S. Η συνάρτηση $S(t)=V\cdot t$ είναι συνεχής στο $[t_a,t_b]$ και παραγωγίσιμη στο $(t_a,t_b)$ ως γραμμική συνάρτηση με $S'(t)=V=constant$ , άρα σύμφωνα με το θεώρημα της μέσης τιμής υπάρχει μία τουλάχιστον χρονική στιγμή $t_0\in(t_a,t_b) $ τέτοια ώστε $S'(t_0)=V(t_0)=\frac{S(t_b)-S(t_a)}{t_b-t_a}=\frac{S}{Δt}=V$. Μάλιστα στην ευθύγραμμη ομαλή κίνηση αυτό γίνεται κάθε χρονική στιγμή αφού η ταχύτητα είναι σταθερή. \newline
+ 2) $f:R \rightarrow R $ ισχύει :\newline 
+$$\lim_{t\to\infty}(\sqrt{e^{2t} +(x+1)e^{x+t} + 1}-e^t)=\frac{f'(x)}{2(x+1)} , x\neq{-1}\: και\: f(-1)=\frac{2}{e}$$  \newline
+\begin{align*}
+&\lim_{t\to\infty}(\sqrt{e^{2t} +(x+1)e^{x+t} + 1}-e^t)= \\
+&=\lim_{t\to\infty}(\sqrt{e^{2t}(1 +(x+1)e^{x-t} + e^{-2t})}-e^t) \\
+&=\lim_{t\to\infty}(e^t(\sqrt{1+(x+1)e^{x-t}+e^{-2t}}-1)) \\*
+&=\lim_{t\to\infty}(e^t\frac{1+(x+1)e^{x-t}+e^{-2t}-1}{\sqrt{1+(x+1)e^{x-t}+e^{-2t}}+1}) \\
+&=\lim_{t\to\infty}(\frac{(x+1)e^x + e^{-t}}{\sqrt{1+(x+1)e^{x-t}+e^{-2t}}+1})= \\
+&=\frac{(x+1)e^x+0}{\sqrt{1+0+0}+1}=\frac{(x+1)e^x}{2}
+\end{align*}
+\newline
+Άρα: \: $\frac{f'(x)}{2(x+1)}=\frac{(x+1)e^x}{2} \Rightarrow \: f'(x)=(x+1)^2e^x \: \Rightarrow \: f'(x)=((x^2+1)e^x)' \Rightarrow f(x)=(x^2+1)e^x +C$ 
+\newline Αφού \: $f(-1)=\frac{2}{e} \: \Rightarrow  C=0$ \newline Άρα $f(x)=(x^2+1)e^x.$
+\newline
+3) Από τα δεδομένα της εκφώνησης γνωρίζω ότι:
+$M\in C_f \Leftrightarrow M(x,y)\equiv M(x(t),y(t)).$ \newline
+$x'(t)=+4\:cm/sec,\:A(x(t),0),\:B(0,y_b)$ Με $y_b$ τυχαία τεταγμένη του Β.\newline
+$\overrightarrow{AB}=(0-x(t),y_b-0)=(-x(t),y_b)$ ,\: $\overrightarrow{AM}=(x(t)-x(t),y(t)-0)=(0,y(t)).$ \newline
+Γνωρίζω ότι το εμβαδόν του τριγώνου ΑΒΜ δίνεται από τον τύπο:\newline
+$E_{ABM}=\frac{1}{2}\mid det(\overrightarrow{AB},\overrightarrow{AM})\mid=\frac{1}{2}\mid \begin{vmatrix}-x(t) & y_b \\ 0 & y(t) \end{vmatrix}\mid=\frac{1}{2}\mid -x(t)y(t)-y_b0\mid=\frac{1}{2}x(t)y(t)=E(t).$
+\newline Η παράγωγος συνάρτηση $E'(t)$ της συνάρτησης του εμβαδού είναι:\newline
+$E'(t)=\frac{1}{2}(x'(t)y(t)+x(t)y'(t)).$\newline
+Για $t=t_0$ όπου $t_0$ η χρονική στιγμή που το M διέρχεται από το $(1,f(1))$ τότε $E'(t_0)=\frac{1}{2}(x'(t_0)y(t_0)+x(t_0)y'(t_0))=\frac{1}{2}(4*1+1*(-\frac{1}{2}))=\frac{7}{4}\:cm^2/sec$ \newline
+Αφού:\: $x'(t_0)=+4\:cm/sec\:,\: x(t_0)=1\:,y(t_0)=1=f(1)$ και $y'(t_0)=f'(1)=\lim_{x\to 1}\frac{f(x)-f(1)}{x-1}=\lim_{x\to 1}\frac{\frac{\ln(x)}{x-1}-1}{x-1}=\lim_{x\to 1}\frac{\ln(x)-x+1}{(x-1)^2}=lim_{x\to 1}\frac{(\ln(x)-x+1)'}{((x-1)^2)'}=\lim_{x\to 1}\frac{\frac{1}{x}-1}{2(x-1)}=\lim_{x\to 1}\frac{(\frac{1}{x}-1)'}{(2(x-1))'}=\lim{x\to 1}\frac{\frac{-1}{x^2}}{2}=\lim_{x\to 1}\frac{-1}{x^2}=\frac{-1}{2}$ \newline
+\newline
+4) Θεωρώ τη συνάρτηση:$g(x)=(x-\alpha)(e^{f(x)}-f(x)) \:+\:xf(x).$\newline
+Η g είναι συνεχής στο $[0,\alpha]$ μιας και είναι συνεχής στο $(0,\alpha) $ ως πράξεις συνεχών συναρτήσεων και:\newline
+$lim_{x\to 0^+}g(x)=(0-\alpha)(e^{f(0)}-f(0))+0*f(0)=-\alpha=g(0) $ και: \newline 
+$lim_{x\to a^-}g(x)=lim_{x\to a^-}(x-\alpha)(e^{f(x)}-f(x)) +xf(x)=0*(e^{f(\alpha)} -f(\alpha)) +\alpha f(\alpha)=\alpha f(\alpha)=g(\alpha).$ \newline Άρα η g συνεχής στο $[0,\alpha].$ \newline
+ Επιπλέον: $g(0)=-\alpha <{0}$\:,αφού $\alpha >0$ \: και: $g(\alpha)=\alpha f(\alpha)>0$ \:(Αφού $\alpha >0 \Rightarrow e^\alpha>1 \Rightarrow e^\alpha + \alpha>1 \Rightarrow \ln(e^\alpha + \alpha)>0\Rightarrow f(\alpha)>0 \Rightarrow \alpha f(\alpha)>0).$ \newline
+ Άρα η g ικανοποίει τις προυποθέσεις του θεωρήματος Bolzano στο διάστημα $[0,\alpha]\: \forall\:\alpha>0.$ \newline Άρα υπάρχει ένα τουλάχιστον $x_0 \in (0,\alpha) $ τέτοιο ώστε $g(x_0)=0 \Rightarrow \frac{e^{f(x_0)}-f(x_0)}{x_0} + \frac{f(x_0)}{x_0-\alpha} =0.$ Άρα η εξίσωση: $\frac{e^{f(x)}-f(x)}{x} + \frac{f(x)}{x-\alpha}=0 $ έχει μία τουλάχιστον λύση στο \newline \newline
+ $(0,\alpha)\:\forall\:\alpha>0 .$ 
+ 
+
+
+\end{document}
+
